@@ -1,0 +1,42 @@
+
+<html>
+   
+    <head>
+        <title>Welcome to the Page </title>
+      <link rel="stylesheet" type="text/css" href='Style.css'>
+      <link rel="icon" href='weather.png'>
+    
+    </head>
+
+    <body>
+      <div class="div1">
+      <header>
+         <h1>{{title}} </h1>
+          <a href="http://localhost:3000/">Application Page </a>
+         <a href="http://localhost:3000/about">About Page </a>
+         <a href="http://localhost:3000/help">Help Page </a>
+         <p>Use this site to get your Weather</p>
+   
+         </header>
+
+                  <form>
+                    <input type="text" placeholder="Location" id="i1">
+                    <button>Search</button>
+                  </form>
+              
+              <p id="temp"></p> <br>
+              <p id="part"></p> <br>
+              <p id="loc"> </p> <br>
+              
+
+          </div>
+         
+         <footer>
+         <p>Created by {{name}}</p>
+  </footer>
+    </body>
+    <script src="app1.js">
+     
+    </script>
+      
+</html>
